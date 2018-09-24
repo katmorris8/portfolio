@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #9EADC8;
+  font-size: 18px;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.width {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.header-bar {
+  text-align: center;
+  background-color: #5B618A;
+  color: #B9E28C;
+  text-shadow: #5B507A 2px 2px 2px;
+  height: 100vh;
+  position: relative;
+}
+
+.header-content {
+  position: absolute;
+  width: 100%;
+  margin-top: 15%;
+}
+
+h1 {
+  font-size: 78px;
+  font-family: 'Domine', serif;
+  margin: 0;
+}
+
+h2 {
+  font-size: 36px;
+  padding-bottom: 60px;
+}
+
+h3 {
+  font-family: 'Domine', serif;
+  font-size: 28px;
+  color: #5B507A;
+}
+
+h4 {
+  font-family: 'Domine', serif;
+}
+
+.nav-bar a {
+  color: #9EADC8;
+  font-size: 20px;
+  padding: 30px;
+}
+
+a:hover {
+  color: #B9E28C;
+}
+
+a {
+  color: #5B507A;
+  text-decoration: none;
+}
+
+section {
+  padding: 60px 0;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.project {
+  width: 40%;
+  padding-bottom: 30px;
+}
+
+.tools {
+  color: #5B507A;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.screenshot {
+  width: 100%;
+  border: solid black 3px;
+}
+
+.about {
+  background-color: #FFF6ED;
+}
