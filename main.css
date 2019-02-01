@@ -112,3 +112,17 @@ section {
 .about-description {
   margin-right: 30px;
 }
+
+.bio-link {
+  color: #B9E28C;
+  font-weight: bold;
+}
+
+.bio-link:hover {
+  color: #5B507A;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: space-evenly;
+}
