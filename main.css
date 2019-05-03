@@ -73,8 +73,9 @@ section {
 
 .project {
   display: flex;
+  justify-content: center;
   padding-bottom: 30px;
-  /* width: 100%; */
+  width: 100%;
   margin: 0 auto;
   padding: 20px;
 }
@@ -84,7 +85,7 @@ section {
   position: relative;
 }
 
-.project-title {
+.center {
   width: 100%;
   position: absolute;
   top: 50%;
@@ -92,14 +93,25 @@ section {
   transform: translate(-50%, -50%);
 }
 
+.project-title {
+  color: #ffffff;
+  text-shadow: #333333 2px 2px 2px;
+  text-align: center;
+  z-index: 5;
+}
+
 .project-image {
-  width: 100%;
   border: #333333 solid 1px;
 }
 
 .project-description {
   margin-left: 40px;
   width: 40%;
+}
+
+.project-links {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .about {
