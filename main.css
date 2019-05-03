@@ -9,16 +9,10 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.width {
-  width: 70%;
-  margin: 0 auto;
-}
-
 .header-bar {
   text-align: center;
-  background-color: #5B618A;
-  color: #B9E28C;
-  text-shadow: #5B507A 2px 2px 2px;
+  color: #333333;
+  text-shadow: #cccccc 2px 2px 2px;
   height: 100vh;
   position: relative;
 }
@@ -31,28 +25,29 @@ body {
 
 h1 {
   font-size: 78px;
-  /* font-family: 'Domine', serif; */
+  font-weight: lighter;
   margin: 0;
 }
 
 h2 {
   font-size: 36px;
+  font-weight: lighter;
   padding-bottom: 60px;
 }
 
 h3 {
-  /* font-family: 'Domine', serif; */
   font-size: 28px;
   color: #5B507A;
+  text-align: center;
 }
 
 h4 {
   font-size: 40px;
-  /* font-family: 'Domine', serif; */
   margin: 0;
 }
 
 .nav-bar a {
+  font-family: 'Open Sans Condensed', sans-serif;
   color: #9EADC8;
   font-size: 20px;
   padding: 30px;
@@ -69,6 +64,10 @@ a {
 
 section {
   padding: 60px 0;
+}
+
+.portfolio {
+  background-color: #cccccc;
 }
 
 .project {
@@ -113,10 +112,6 @@ section {
   justify-content: space-evenly;
 }
 
-.about {
-  background-color: #FFF6ED;
-}
-
 .about-content {
   display: flex;
   justify-content: space-evenly;
@@ -143,7 +138,13 @@ section {
   color: #5B507A;
 }
 
+.contact {
+  background-color: #cccccc;
+}
+
 .contact-icons {
   display: flex;
   justify-content: space-evenly;
+  width: 70%;
+  margin: 0 auto;
 }
