@@ -74,10 +74,9 @@ section {
 .project {
   display: flex;
   justify-content: center;
-  padding-bottom: 30px;
   width: 100%;
   margin: 0 auto;
-  padding: 20px;
+  padding-bottom: 100px;
 }
 
 .project-thumbnail {
