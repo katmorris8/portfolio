@@ -7,11 +7,11 @@ body {
   font-size: 18px;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  color: #333333;
 }
 
 .header-bar {
   text-align: center;
-  color: #333333;
   text-shadow: #cccccc 2px 2px 2px;
   height: 100vh;
   position: relative;
@@ -48,13 +48,15 @@ h4 {
 
 .nav-bar a {
   font-family: 'Open Sans Condensed', sans-serif;
-  color: #9EADC8;
+  color: #999999;
   font-size: 20px;
   padding: 30px;
 }
 
 a:hover {
   color: #B9E28C;
+  font-size: 40px;
+  transition: font-size 2s ease-in 1s;
 }
 
 a {
