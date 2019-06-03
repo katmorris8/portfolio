@@ -196,6 +196,11 @@ a:hover {
   h2 {
     font-size: 48px;
   }
+  
+    .header-section {
+      margin-top: 40px;
+      height: 650px;
+    }
 
   .header-message p {
     font-size: 20px;
@@ -206,7 +211,7 @@ a:hover {
     width: 95%;
   }
 
-  .header-section {
-    height: 600px;
+  .nav-bar {
+    height: 450px;
   }
 }
