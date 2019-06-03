@@ -197,10 +197,10 @@ a:hover {
     font-size: 48px;
   }
   
-    .header-section {
-      margin-top: 40px;
-      height: 650px;
-    }
+  .header-section {
+    margin-top: 40px;
+    height: 650px;
+  }
 
   .header-message p {
     font-size: 20px;
@@ -213,5 +213,26 @@ a:hover {
 
   .nav-bar {
     height: 450px;
+  }
+
+  .project {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 150px;
+    padding-bottom: 50px;
+  }
+
+  .project-thumbnail {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .project-description {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 150px;
+    text-align: center;
   }
 }
