@@ -187,3 +187,26 @@ a:hover {
   width: 70%;
   margin: 0 auto;
 }
+
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 90px;
+  }
+  
+  h2 {
+    font-size: 48px;
+  }
+
+  .header-message p {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  .header-img img {
+    width: 95%;
+  }
+
+  .header-section {
+    height: 600px;
+  }
+}
