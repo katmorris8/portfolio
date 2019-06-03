@@ -87,6 +87,13 @@ a:hover {
   width: 50%;
 }
 
+.header-message p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #333333;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
 .header-img {
   width: 50%;
 }
