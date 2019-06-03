@@ -38,6 +38,15 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #333333;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+
 section {
   padding: 60px 0;
 }
@@ -66,7 +75,7 @@ section {
 }
 
 a:hover {
-  color: #ffffff;
+  color: #333333;
   transition: color 500ms ease-in 200ms;
 }
 
@@ -88,9 +97,7 @@ a:hover {
 }
 
 .header-message p {
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: #333333;
-  line-height: 1.5;
+  font-size: 18px;
   letter-spacing: 0.5px;
 }
 
@@ -161,20 +168,8 @@ a:hover {
 }
 
 .about-content {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.pic {
-  width: 20%;
-  height: 20%;
-  border: solid #5B507A 3px;
-  margin: 0 30px;
-}
-
-.about-description {
-  margin-right: 30px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .bio-link {
@@ -183,7 +178,7 @@ a:hover {
 }
 
 .bio-link:hover {
-  color: #5B507A;
+  color: #333333;
 }
 
 .contact-icons {
