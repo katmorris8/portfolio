@@ -103,7 +103,7 @@ a:hover {
   width: 90%;
 }
 
-.portfolio-header {
+.portfolio-header, .about-header, .contact-header {
   display: flex;
   justify-content: center;
   width: 90%;
@@ -113,7 +113,7 @@ a:hover {
 
 .line {
   background-color: #99ccff;
-  width: 90%;
+  width: 85%;
   height: 2px;
   margin: 15px 0 0 10px;
 }
