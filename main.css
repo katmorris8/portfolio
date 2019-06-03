@@ -10,19 +10,6 @@ body {
   color: #99ccff;
 }
 
-.header-bar {
-  text-align: center;
-  text-shadow: #cccccc 2px 2px 2px;
-  height: 100vh;
-  position: relative;
-}
-
-.header-content {
-  position: absolute;
-  width: 100%;
-  margin-top: 15%;
-}
-
 h1 {
   font-size: 78px;
   font-weight: lighter;
@@ -63,12 +50,6 @@ h4 {
   padding: 30px;
 }
 
-/* a:hover {
-  color: #B9E28C;
-  font-size: 40px;
-  transition: font-size 2s ease-in 1s;
-} */
-
 a {
   color: #99ccff;
   text-decoration: none;
@@ -77,6 +58,21 @@ a {
 section {
   padding: 60px 0;
 }
+
+/* a:hover {
+  color: #B9E28C;
+  font-size: 40px;
+  transition: font-size 2s ease-in 1s;
+} */
+
+.header-bar {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  z-index: 5;
+}
+
+
 
 .project {
   display: flex;
