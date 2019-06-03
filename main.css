@@ -42,7 +42,7 @@ p {
   font-family: 'Open Sans Condensed', sans-serif;
   color: #333333;
   line-height: 1.5;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.25px;
   font-size: 20px;
   margin-bottom: 18px;
 }
@@ -72,6 +72,7 @@ section {
   color: #333333;
   font-size: 20px;
   padding: 30px;
+  letter-spacing: 0.5px;
 }
 
 a:hover {
