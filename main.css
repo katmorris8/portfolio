@@ -235,4 +235,8 @@ a:hover {
     padding-top: 150px;
     text-align: center;
   }
+
+  .line {
+    width: 80%;
+  }
 }
