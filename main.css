@@ -25,7 +25,7 @@ h2 {
 h3 {
   font-size: 28px;
   color: #99ccff;
-  text-align: center;
+  padding-bottom: 40px;
 }
 
 h4 {
@@ -44,7 +44,7 @@ section {
 
 .header-section {
   position: relative;
-  height: 650px;
+  height: 700px;
 }
 
 .nav-bar {
@@ -103,6 +103,20 @@ a:hover {
   width: 90%;
 }
 
+.portfolio-header {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.line {
+  background-color: #99ccff;
+  width: 90%;
+  height: 2px;
+  margin: 15px 0 0 10px;
+}
 
 .project {
   display: flex;
