@@ -3,11 +3,11 @@
 }
 
 body {
-  background-color: #99ccff;
+  background-color: #ffffff;
   font-size: 18px;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  color: #333333;
+  color: #99ccff;
 }
 
 .header-bar {
@@ -37,7 +37,7 @@ h2 {
 
 h3 {
   font-size: 28px;
-  color: #5B507A;
+  color: #99ccff;
   text-align: center;
 }
 
@@ -46,9 +46,19 @@ h4 {
   margin: 0;
 }
 
+.nav-bar {
+  position: absolute;
+  left: 50%;
+  top: 20px;
+  width: 100%;
+  height: 500px;
+  padding: 15px;
+  background-color: #99ccff;
+}
+
 .nav-bar a {
   font-family: 'Open Sans Condensed', sans-serif;
-  color: #999999;
+  color: #333333;
   font-size: 20px;
   padding: 30px;
 }
@@ -60,16 +70,12 @@ a:hover {
 }
 
 a {
-  color: #5B507A;
+  color: #99ccff;
   text-decoration: none;
 }
 
 section {
   padding: 60px 0;
-}
-
-.portfolio {
-  background-color: #cccccc;
 }
 
 .project {
@@ -132,16 +138,12 @@ section {
 }
 
 .bio-link {
-  color: #B9E28C;
+  color: #99ccff;
   font-weight: bold;
 }
 
 .bio-link:hover {
   color: #5B507A;
-}
-
-.contact {
-  background-color: #cccccc;
 }
 
 .contact-icons {
