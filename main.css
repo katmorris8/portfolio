@@ -63,11 +63,11 @@ h4 {
   padding: 30px;
 }
 
-a:hover {
+/* a:hover {
   color: #B9E28C;
   font-size: 40px;
   transition: font-size 2s ease-in 1s;
-}
+} */
 
 a {
   color: #99ccff;
