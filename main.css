@@ -53,7 +53,7 @@ section {
 
 .header-section {
   position: relative;
-  height: 700px;
+  height: 100vh;
 }
 
 .nav-bar {
