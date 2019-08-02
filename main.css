@@ -106,9 +106,10 @@ a:hover {
   width: 50%;
 }
 
-.header-img img {
+.headshot {
   margin: 0 auto;
   width: 90%;
+  filter: grayscale();
 }
 
 .portfolio-header, .about-header, .contact-header {
