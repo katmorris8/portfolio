@@ -219,9 +219,13 @@ a:hover {
     font-size: 20px;
     margin-right: 10px;
   }
-
+  
   .header-img img {
     width: 95%;
+  }
+  
+  .header-img::after {
+    right: 2.5%;
   }
 
   .nav-bar {
