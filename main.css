@@ -182,7 +182,11 @@ a:hover {
 
 .project-links {
   display: flex;
-  justify-content: space-evenly;
+  padding-left: 16px;
+}
+
+.project-links a {
+  padding-right: 50px;
 }
 
 .about-content {
@@ -257,6 +261,15 @@ a:hover {
     margin: 0 auto;
     padding-top: 150px;
     text-align: center;
+  }
+
+  .project-links {
+    justify-content: space-evenly;
+    padding: 0;
+  }
+
+  .project-links a {
+    padding: 0;
   }
 
   .line {
