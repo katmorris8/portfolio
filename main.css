@@ -109,7 +109,7 @@ a:hover {
 .headshot {
   margin: 0 auto;
   width: 90%;
-  filter: grayscale();
+  filter: brightness(110%) grayscale(1);
 }
 
 .portfolio-header, .about-header, .contact-header {
