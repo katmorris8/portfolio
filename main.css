@@ -107,9 +107,20 @@ a:hover {
 }
 
 .headshot {
+  position: relative;
   margin: 0 auto;
   width: 90%;
   filter: brightness(110%) grayscale(1);
+}
+
+.header-img::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  bottom: 2px;
+  right: 5%;
+  background: linear-gradient(150deg, transparent 65%,#99ccff 100%);
 }
 
 .portfolio-header, .about-header, .contact-header {
