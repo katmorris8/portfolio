@@ -110,7 +110,7 @@ a:hover {
   position: relative;
   margin: 0 auto;
   width: 90%;
-  filter: brightness(110%) grayscale(1);
+  filter: contrast(85%) brightness(130%) grayscale(1);
 }
 
 .header-img::after {
