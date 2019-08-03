@@ -287,4 +287,8 @@ a:hover {
     bottom: 3px;
     width: 45%;
   }
+
+  .nav-bar {
+    height: 325px;
+  }
 }
