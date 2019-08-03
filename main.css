@@ -281,4 +281,10 @@ a:hover {
   .nav-bar a {
     padding: 30px 15px;
   }
+
+  .header-img::after {
+    right: 5%;
+    bottom: 3px;
+    width: 45%;
+  }
 }
