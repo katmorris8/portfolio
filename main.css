@@ -378,6 +378,13 @@ a:hover {
     width: 100%;
   }
 
+  .header-img::after {
+    height: 42.5%;
+    width: 90%;
+    top: 0;
+    left: 0;
+  }
+
   .nav-bar {
     display: flex;
     align-items: flex-end;
