@@ -298,6 +298,10 @@ a:hover {
     height: 325px;
   }
 
+  .portfolio {
+    padding-bottom: 0;
+  }
+
   .portfolio-header {
     margin-bottom: 0;
   }
@@ -334,6 +338,18 @@ a:hover {
 
   .line {
     width: 75%;
+  }
+
+  .about {
+    padding-bottom: 0;
+  }
+
+  .about-header {
+    margin-bottom: 16px;
+  }
+
+  .contact-header {
+    margin-bottom: 16px;
   }
 }
 
