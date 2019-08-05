@@ -418,12 +418,25 @@ a:hover {
 
   .project-thumbnail {
     width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 60px;
   }
 
   .project-description {
     width: 90%;
     margin: 0 auto;
     text-align: center;
+    padding-top: 80px;
+  }
+
+  .project-links {
+    justify-content: space-evenly;
+    padding: 0;
+  }
+
+  .project-links a {
+    padding: 0;
   }
 
   .line {
