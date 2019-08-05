@@ -366,14 +366,21 @@ a:hover {
   .nav-bar {
     left: 25%;
     width: 70%;
+    height: 350px;
   }
   
   .header-bar {
     display: block;
+    top: 150px;
+  }
+
+  .header-img {
+    width: 100%;
   }
 
   .nav-bar {
     display: flex;
+    align-items: flex-end;
     flex-direction: column;
   }
 
