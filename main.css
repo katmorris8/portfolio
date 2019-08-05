@@ -292,6 +292,10 @@ a:hover {
     height: 500px;
   }
 
+  .header-message {
+    width: 40%;
+  }
+
   .header-img::after {
     right: 5%;
     bottom: 3px;
