@@ -363,4 +363,12 @@ a:hover {
 }
 
 @media only screen and (max-width: 480px) {
+  .nav-bar {
+    left: 25%;
+    width: 70%;
+  }
+  
+  .header-bar {
+    display: block;
+  }
 }
