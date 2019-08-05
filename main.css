@@ -363,6 +363,14 @@ a:hover {
 }
 
 @media only screen and (max-width: 480px) {
+  p {
+    margin-bottom: 14px;
+  }
+  
+  h2 {
+    padding-bottom: 28px;
+  }
+  
   .nav-bar {
     left: 25%;
     width: 70%;
@@ -379,10 +387,15 @@ a:hover {
   }
 
   .header-img::after {
-    height: 42.5%;
+    height: 41.5%;
     width: 90%;
     top: 0;
     left: 0;
+  }
+
+  .header-message {
+    padding-top: 18px;
+    width: 100%;
   }
 
   .nav-bar {
