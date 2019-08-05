@@ -370,6 +370,10 @@ a:hover {
   h2 {
     padding-bottom: 28px;
   }
+
+  h3 {
+    font-size: 24px;
+  }
   
   .nav-bar {
     left: 25%;
@@ -406,5 +410,9 @@ a:hover {
 
   .nav-bar a {
     padding: 5px;
+  }
+
+  .line {
+    width: 60%;
   }
 }
