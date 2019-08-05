@@ -412,6 +412,20 @@ a:hover {
     padding: 5px;
   }
 
+  .project {
+    display: block;
+  }
+
+  .project-thumbnail {
+    width: 70%;
+  }
+
+  .project-description {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
   .line {
     width: 60%;
   }
