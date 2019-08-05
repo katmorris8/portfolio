@@ -297,4 +297,22 @@ a:hover {
   .nav-bar {
     height: 325px;
   }
+
+  .portfolio-header {
+    margin-bottom: 0;
+  }
+
+  .project {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 140px;
+    padding-bottom: 50px;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  
 }
