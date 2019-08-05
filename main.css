@@ -311,6 +311,19 @@ a:hover {
     padding-bottom: 50px;
   }
 
+  .project-thumbnail {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .project-description {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 140px;
+    text-align: center;
+  }
+
+
 }
 
 @media only screen and (max-width: 480px) {
