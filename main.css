@@ -323,7 +323,14 @@ a:hover {
     text-align: center;
   }
 
+  .project-links {
+    justify-content: space-evenly;
+    padding: 0;
+  }
 
+  .project-links a {
+    padding: 0;
+  }
 }
 
 @media only screen and (max-width: 480px) {
