@@ -331,6 +331,10 @@ a:hover {
   .project-links a {
     padding: 0;
   }
+
+  .line {
+    width: 75%;
+  }
 }
 
 @media only screen and (max-width: 480px) {
