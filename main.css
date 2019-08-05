@@ -288,6 +288,10 @@ a:hover {
     padding: 30px 15px;
   }
 
+  .header-section {
+    height: 500px;
+  }
+
   .header-img::after {
     right: 5%;
     bottom: 3px;
