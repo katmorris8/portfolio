@@ -371,4 +371,13 @@ a:hover {
   .header-bar {
     display: block;
   }
+
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-bar a {
+    padding: 5px;
+  }
 }
