@@ -454,4 +454,8 @@ a:hover {
   .line {
     width: 60%;
   }
+
+  .contact-header {
+    margin-bottom: 0;
+  }
 }
