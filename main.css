@@ -56,6 +56,14 @@ section {
   height: 100vh;
 }
 
+.toggle-container {
+  padding: 1em;
+}
+
+.toggle {
+  display: flex;
+}
+
 .nav-bar {
   position: absolute;
   left: 55%;
