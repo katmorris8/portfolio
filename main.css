@@ -459,3 +459,9 @@ a:hover {
     margin-bottom: 0;
   }
 }
+
+@media only screen and (max-width: 452px) {
+  .header-img::after {
+    height: 55.15%;
+  }
+}
