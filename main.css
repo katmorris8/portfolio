@@ -167,6 +167,7 @@ a:hover {
 
 .project-title {
   color: #ffffff;
+  line-height: 1.2;
   text-shadow: #333333 2px 2px 2px;
   text-align: center;
   z-index: 5;
