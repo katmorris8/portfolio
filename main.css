@@ -19,13 +19,13 @@ h1 {
 h2 {
   font-size: 2em;
   font-weight: lighter;
-  padding-bottom: 60px;
+  padding-bottom: 3.5rem;
 }
 
 h3 {
   font-size: 1.5em;
   color: #99ccff;
-  padding-bottom: 40px;
+  padding-bottom: 2.25rem;
 }
 
 h4 {
@@ -48,7 +48,7 @@ p {
 }
 
 section {
-  padding: 60px 0;
+  padding: 3.5em 0;
 }
 
 .header-section {
@@ -70,7 +70,7 @@ section {
   top: 20px;
   width: 44%;
   height: 500px;
-  padding: 15px;
+  padding: .83em;
   background-color: #99ccff;
   z-index: 1;
 }
@@ -79,7 +79,7 @@ section {
   font-family: 'Open Sans Condensed', sans-serif;
   color: #333333;
   font-size: 1.15em;
-  padding: 30px;
+  padding: 1.5rem;
   letter-spacing: 0.5px;
 }
 
@@ -157,7 +157,7 @@ a:hover {
   justify-content: center;
   width: 100%;
   margin: 0 auto;
-  padding-bottom: 100px;
+  padding-bottom: 5.5em;
 }
 
 .project-thumbnail {
@@ -192,11 +192,11 @@ a:hover {
 
 .project-links {
   display: flex;
-  padding-left: 16px;
+  padding-left: .89em;
 }
 
 .project-links a {
-  padding-right: 50px;
+  padding-right: 2.75em;
 }
 
 .about-content {
@@ -222,7 +222,7 @@ a:hover {
 
 @media only screen and (min-width: 1440px) {
   .project {
-    padding-bottom: 150px;
+    padding-bottom: 8.5em;
   }
 }
 
@@ -263,8 +263,8 @@ a:hover {
     width: 100%;
     height: auto;
     margin: 0 auto;
-    padding-top: 150px;
-    padding-bottom: 50px;
+    padding-top: 8.5em;
+    padding-bottom: 2.75em;
   }
 
   .project-thumbnail {
@@ -275,7 +275,7 @@ a:hover {
   .project-description {
     width: 50%;
     margin: 0 auto;
-    padding-top: 150px;
+    padding-top: 8.5rem;
     text-align: center;
   }
 
@@ -295,7 +295,7 @@ a:hover {
 
 @media only screen and (max-width: 768px) and (min-width: 481px) {
   .nav-bar a {
-    padding: 30px 15px;
+    padding: 1.75rem .834rem;
   }
 
   .header-section {
@@ -329,8 +329,8 @@ a:hover {
     width: 100%;
     height: auto;
     margin: 0 auto;
-    padding-top: 140px;
-    padding-bottom: 50px;
+    padding-top: 7.75em;
+    padding-bottom: 2.75em;
   }
 
   .project-thumbnail {
@@ -341,7 +341,7 @@ a:hover {
   .project-description {
     width: 70%;
     margin: 0 auto;
-    padding-top: 140px;
+    padding-top: 7.75rem;
     text-align: center;
   }
 
@@ -377,7 +377,7 @@ a:hover {
   }
   
   h2 {
-    padding-bottom: 28px;
+    padding-bottom: 1.5rem;
   }
 
   h3 {
@@ -407,7 +407,7 @@ a:hover {
   }
 
   .header-message {
-    padding-top: 18px;
+    padding-top: 1rem;
     width: 90%;
   }
 
@@ -418,7 +418,7 @@ a:hover {
   }
 
   .nav-bar a {
-    padding: 5px;
+    padding: .25rem;
   }
 
   .portfolio {
@@ -433,14 +433,14 @@ a:hover {
     width: 70%;
     text-align: center;
     margin: 0 auto;
-    padding-top: 60px;
+    padding-top: 3.5rem;
   }
 
   .project-description {
     width: 90%;
     margin: 0 auto;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 4.5rem;
   }
 
   .project-links {
