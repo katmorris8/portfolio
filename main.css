@@ -44,7 +44,7 @@ p {
   line-height: 1.5;
   letter-spacing: 0.25px;
   font-size: 1.15em;
-  margin-bottom: 18px;
+  margin-bottom: 1rem;
 }
 
 section {
@@ -142,14 +142,14 @@ a:hover {
   justify-content: center;
   width: 90%;
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 2.75rem;
 }
 
 .line {
   background-color: #99ccff;
   width: 85%;
   height: 2px;
-  margin: 15px 0 0 10px;
+  margin: .83em 0 0 .56em;
 }
 
 .project {
@@ -186,7 +186,7 @@ a:hover {
 }
 
 .project-description {
-  margin-left: 40px;
+  margin-left: 2.25rem;
   width: 40%;
 }
 
@@ -236,13 +236,13 @@ a:hover {
   }
   
   .header-section {
-    margin-top: 40px;
+    margin-top: 2.25rem;
     height: 650px;
   }
 
   .header-message p {
     font-size: 1.15em;
-    margin-right: 10px;
+    margin-right: .56rem;
   }
   
   .header-img img {
@@ -363,17 +363,17 @@ a:hover {
   }
 
   .about-header {
-    margin-bottom: 16px;
+    margin-bottom: .89rem;
   }
 
   .contact-header {
-    margin-bottom: 16px;
+    margin-bottom: .89rem;
   }
 }
 
 @media only screen and (max-width: 480px) {
   p {
-    margin-bottom: 14px;
+    margin-bottom: .78rem;
   }
   
   h2 {
