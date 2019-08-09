@@ -67,9 +67,9 @@ section {
 .nav-bar {
   position: absolute;
   left: 55%;
-  top: 20px;
+  top: 1.15em;
   width: 44%;
-  height: 500px;
+  height: 27.75em;
   padding: .83em;
   background-color: #99ccff;
   z-index: 1;
@@ -94,7 +94,7 @@ a:hover {
 }
 
 .header-bar {
-  top: 100px;
+  top: 5.5em;
   left: 0;
   right: 0;
   position: absolute;
@@ -132,7 +132,7 @@ a:hover {
   content: "";
   height: 100%;
   width: 45%;
-  bottom: 2px;
+  bottom: .15rem;
   right: 5%;
   background: linear-gradient(150deg, transparent 50%,#99ccff 100%);
 }
@@ -237,7 +237,7 @@ a:hover {
   
   .header-section {
     margin-top: 2.25rem;
-    height: 650px;
+    height: 36em;
   }
 
   .header-message p {
@@ -255,7 +255,7 @@ a:hover {
   }
 
   .nav-bar {
-    height: 450px;
+    height: 25em;
   }
 
   .project {
@@ -299,7 +299,7 @@ a:hover {
   }
 
   .header-section {
-    height: 500px;
+    height: 27.75em;
   }
 
   .header-message {
@@ -313,7 +313,7 @@ a:hover {
   }
 
   .nav-bar {
-    height: 325px;
+    height: 18em;
   }
 
   .portfolio {
@@ -387,12 +387,12 @@ a:hover {
   .nav-bar {
     left: 25%;
     width: 70%;
-    height: 350px;
+    height: 19.5em;
   }
   
   .header-bar {
     display: block;
-    top: 150px;
+    top: 8.35em;
   }
 
   .header-img {
