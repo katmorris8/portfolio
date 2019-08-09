@@ -68,10 +68,19 @@ section {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: relative;
 }
 
 .toggle p {
   margin: 0;
+}
+
+.toggle-button {
+  width: 1.5em;
+  height: 1.5em;
+  background-color: #99ccff;
+  border-radius: 50%;
+  position: absolute;
 }
 
 .nav-bar {
@@ -246,7 +255,6 @@ a:hover {
   }
   
   .header-section {
-    margin-top: 2.25rem;
     height: 36em;
   }
 
