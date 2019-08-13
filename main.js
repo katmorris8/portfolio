@@ -4,12 +4,17 @@ const toggleBtn = document.querySelector('.toggle-button');
 toggle.addEventListener('click', handleToggle);
 
 function handleToggle() {
-  toggle.classList.remove('toggle=light');
-  toggle.classList.add('toggle-dark');
-  toggleBtn.classList.remove('light-mode-toggle');
-  toggleBtn.classList.add('dark-mode-toggle');
-  // toggleBtn.style.right = '0.1rem';
-  // remove and add classes that style the toggle switch
+  if (toggle.classList.contains('toggle-light')) {
+    toggle.classList.remove('toggle-light');
+    toggle.classList.add('toggle-dark');
+    toggleBtn.classList.remove('light-mode-toggle');
+    toggleBtn.classList.add('dark-mode-toggle');
+  } else if (toggle.classList.contains('toggle-dark')) {
+    toggle.classList.remove('toggle-dark');
+    toggle.classList.add('toggle-light');
+    toggleBtn.classList.remove('dark-mode-toggle');
+    toggleBtn.classList.add('light-mode-toggle');
+  }
 }
 
 // light mode 

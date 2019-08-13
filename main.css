@@ -110,18 +110,18 @@ section {
   transition: left 500ms ease-out 300ms;
 }
 
-.toggle-button-light {
+/* .toggle-button-light { */
   /* right: .2rem; */
-}
+/* } */
 
-.toggle-button-dark {
+/* .toggle-button-dark { */
   /* left: .2rem; */
-}
+/* } */
 
-.toggle-button:hover {
+/* .toggle-button:hover { */
   /* animation: slide-right 1s ease-in 300ms 1; */
   /* left: 2.45rem; */
-}
+/* } */
 
 .header-section {
   position: relative;
