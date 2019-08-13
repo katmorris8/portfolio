@@ -5,11 +5,13 @@ toggle.addEventListener('click', handleToggle);
 
 function handleToggle() {
   if (toggle.classList.contains('toggle-light')) {
+    // changes to the toggle button
     toggle.classList.remove('toggle-light');
     toggle.classList.add('toggle-dark');
     toggleBtn.classList.remove('light-mode-toggle');
     toggleBtn.classList.add('dark-mode-toggle');
   } else if (toggle.classList.contains('toggle-dark')) {
+    // changes to the toggle button
     toggle.classList.remove('toggle-dark');
     toggle.classList.add('toggle-light');
     toggleBtn.classList.remove('dark-mode-toggle');
@@ -18,11 +20,13 @@ function handleToggle() {
 }
 
 // light mode 
-// toggle button postition right .2rem
-// toggle background color white
-// toggle border color #333333
+// background color white
+// class light-mode-hover:
+// p color #333333
+// a hover color #333333
 
 // dark mode 
-// toggle button postition left .2rem
-// toggle background color #333333
-// toggle border color #cccccc
+// background color #333333
+// class dark-mode-hover:
+// p color white
+// a hover color white

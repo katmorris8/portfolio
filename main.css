@@ -137,7 +137,7 @@ section {
   transition: color 500ms ease-in 200ms;
 }
 
-a:hover {
+.light-mode-hover:hover {
   color: #333333;
   transition: color 500ms ease-in 200ms;
 }
