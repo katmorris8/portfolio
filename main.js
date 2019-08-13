@@ -1,4 +1,4 @@
-const body = document.querySelector('body');
+const body = document.querySelector('#light-mode');
 const toggle = document.querySelector('.toggle');
 const toggleBtn = document.querySelector('.toggle-button');
 const links = document.querySelectorAll('.light-mode-link');
@@ -28,7 +28,7 @@ function handleToggle() {
     }
 
   // turn light mode on
-  } else if (toggle.classList.contains('toggle-dark')) {
+  } else if (body.id === 'dark-mode') {
     // changes to the toggle button
     toggle.classList.remove('toggle-dark');
     toggle.classList.add('toggle-light');
@@ -48,14 +48,6 @@ function handleToggle() {
     }
   }
 }
-
-// light mode 
-// class light-mode-hover:
-// p color #333333
-
-// dark mode 
-// class dark-mode-hover:
-// p color white
 
 // create a transition for the background color
 // background color transition doesn't work
