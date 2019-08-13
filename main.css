@@ -72,6 +72,11 @@ section {
   border: #333333 2px solid;
 }
 
+.toggle-dark {
+  background-color: #333333;
+  border: #cccccc 2px solid;
+}
+
 .toggle:hover {
   /* background-color: #333333; */
   cursor: pointer;
@@ -93,6 +98,10 @@ section {
 
 .toggle-button-light {
   right: .2rem;
+}
+
+.toggle-button-dark {
+  left: .2rem;
 }
 
 .toggle-button:hover {
