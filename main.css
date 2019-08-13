@@ -4,12 +4,12 @@
 
 #light-mode {
   background-color: #ffffff;
-  transition: background-color 500ms ease-out 300ms,
+  transition: background-color 500ms ease-out 300ms;
 }
 
 #dark-mode {
   background-color: #333333;
-  transition: background-color 500ms ease-out 300ms,
+  transition: background-color 500ms ease-out 300ms;
 }
 
 body {

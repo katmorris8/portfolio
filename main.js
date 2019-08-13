@@ -48,6 +48,3 @@ function handleToggle() {
     }
   }
 }
-
-// create a transition for the background color
-// background color transition doesn't work
