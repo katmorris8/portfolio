@@ -30,6 +30,11 @@ function handleToggle() {
     toggleBtn.classList.add('light-mode-toggle');
     // changes to the background color
     body.id = 'light-mode';
+    //changes to the paragraph text color
+    for (let i = 0; i < links.length; i++) {
+      links[i].classList.remove('dark-mode-link');
+      links[i].classList.add('light-mode-link');
+    }
   }
 }
 
