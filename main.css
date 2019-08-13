@@ -70,11 +70,15 @@ section {
 .toggle-light {
   background-color: #ffffff;
   border: #333333 2px solid;
+  transition: background-color 500ms ease-out 300ms,
+              border 500ms ease-out 300ms;
 }
 
 .toggle-dark {
   background-color: #333333;
   border: #cccccc 2px solid;
+  transition: background-color 500ms ease-out 300ms,
+              border 500ms ease-out 300ms;;
 }
 
 .toggle:hover {
