@@ -93,6 +93,8 @@ section {
   background-color: #99ccff;
   border-radius: 50%;
   position: absolute;
+  left: .1rem;
+  transition: left 500ms ease-out 300ms;
   /* box-shadow: 0px 0px 3px .5px #939393; */
 }
 
@@ -105,7 +107,8 @@ section {
 }
 
 .toggle-button:hover {
-  /* left: .2rem; */
+  /* animation: slide-right 1s ease-in 300ms 1; */
+  left: 2.45rem;
 }
 
 .header-section {
