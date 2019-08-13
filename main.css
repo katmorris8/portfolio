@@ -146,12 +146,12 @@ section {
   transition: color 500ms ease-in 200ms;
 }
 
-.light-mode-hover:hover {
+.light-mode-link:hover {
   color: #333333;
   transition: color 500ms ease-in 200ms;
 }
 
-.dark-mode-hover:hover {
+.dark-mode-link:hover {
   color: #ffffff;
   transition: color 500ms ease-in 200ms;
 }
