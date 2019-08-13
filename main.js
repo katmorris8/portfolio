@@ -41,6 +41,11 @@ function handleToggle() {
       links[i].classList.remove('dark-mode-link');
       links[i].classList.add('light-mode-link');
     }
+    // changes to the paragraph text color
+    for (let i = 0; i < paragraphs.length; i++) {
+      paragraphs[i].classList.remove('dark-mode-text');
+      paragraphs[i].classList.add('light-mode-text');
+    }
   }
 }
 
@@ -54,4 +59,3 @@ function handleToggle() {
 
 // create a transition for the background color
 // background color transition doesn't work
-// paragraph transition only works on first click
