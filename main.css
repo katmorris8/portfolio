@@ -97,11 +97,11 @@ section {
 }
 
 .toggle-button-light {
-  right: .2rem;
+  /* right: .2rem; */
 }
 
 .toggle-button-dark {
-  left: .2rem;
+  /* left: .2rem; */
 }
 
 .toggle-button:hover {
@@ -269,12 +269,21 @@ a:hover {
   margin: 0 auto;
 }
 
-@keyframes slide-right {
+@keyframes slide-left {
   0% {
-
+    right: .2rem;
   }
   100% {
     left: .2rem;
+  }
+}
+
+@keyframes slide-right {
+  0% {
+    left: .2rem;
+  }
+  100% {
+    right: .2rem;
   }
 }
 
