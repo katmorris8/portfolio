@@ -156,6 +156,16 @@ section {
   transition: color 500ms ease-in 200ms;
 }
 
+.light-mode-text {
+  color: #333333;
+  transition: color 500ms ease-out 300ms;
+}
+
+.dark-mode-text {
+  color: #ffffff;
+  transition: color 500ms ease-out 300ms;
+}
+
 .header-bar {
   top: 5.5em;
   left: 0;
