@@ -142,6 +142,11 @@ section {
   transition: color 500ms ease-in 200ms;
 }
 
+.dark-mode-hover:hover {
+  color: #ffffff;
+  transition: color 500ms ease-in 200ms;
+}
+
 .header-bar {
   top: 5.5em;
   left: 0;
