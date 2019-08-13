@@ -60,17 +60,21 @@ section {
 .toggle {
   display: flex;
   width: 4em;
-  border: #cccccc 2px solid;
   border-radius: 1em;
   display: flex;
   justify-content: space-around;
   align-items: center;
   position: relative;
+}
+
+.toggle-light {
   background-color: #ffffff;
+  border: #333333 2px solid;
 }
 
 .toggle:hover {
   /* background-color: #333333; */
+  cursor: pointer;
 }
 
 .toggle p {
@@ -84,6 +88,10 @@ section {
   background-color: #99ccff;
   border-radius: 50%;
   position: absolute;
+  /* box-shadow: 0px 0px 3px .5px #939393; */
+}
+
+.toggle-button-light {
   right: .2rem;
 }
 
@@ -250,6 +258,15 @@ a:hover {
   justify-content: space-evenly;
   width: 70%;
   margin: 0 auto;
+}
+
+@keyframes slide-right {
+  0% {
+
+  }
+  100% {
+    left: .2rem;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
