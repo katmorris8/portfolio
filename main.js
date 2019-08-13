@@ -4,8 +4,8 @@ const toggleBtn = document.querySelector('.toggle-button');
 toggle.addEventListener('click', handleToggle);
 
 function handleToggle() {
-  toggleBtn.classList.remove('light-mode');
-  toggleBtn.classList.add('dark-mode');
+  toggleBtn.classList.remove('light-mode-toggle');
+  toggleBtn.classList.add('dark-mode-toggle');
   // toggleBtn.style.right = '0.1rem';
   // remove and add classes that style the toggle switch
 }
