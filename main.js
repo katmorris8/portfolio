@@ -12,30 +12,34 @@ function handleToggle() {
   console.log(window.localStorage.getItem('mode'));
   // turn dark mode on
   if (window.localStorage.getItem('mode') === 'light' || body.id === 'light-mode') {
-    // changes to the toggle button
-    toggle.classList.remove('toggle-light');
-    toggle.classList.add('toggle-dark');
-    toggleBtn.classList.remove('light-mode-toggle');
-    toggleBtn.classList.add('dark-mode-toggle');
-    // changes to the background color
-    body.id = 'dark-mode';
-    // changes to the link color on hover
-    for (let i = 0; i < links.length; i++) {
-      links[i].classList.remove('light-mode-link');
-      links[i].classList.add('dark-mode-link');
-    }
-    // changes to the paragraph text color
-    for (let i = 0; i < paragraphs.length; i++) {
-      paragraphs[i].classList.remove('light-mode-text');
-      paragraphs[i].classList.add('dark-mode-text');
-    }
-    // set local storage to dark mode
-    window.localStorage.setItem('mode', 'dark');
+    darkMode();
 
   // turn light mode on
   } else if (window.localStorage.getItem('mode') === 'dark' || body.id === 'dark-mode') {
     lightMode();
   }
+}
+
+function darkMode() {
+  // changes to the toggle button
+  toggle.classList.remove('toggle-light');
+  toggle.classList.add('toggle-dark');
+  toggleBtn.classList.remove('light-mode-toggle');
+  toggleBtn.classList.add('dark-mode-toggle');
+  // changes to the background color
+  body.id = 'dark-mode';
+  // changes to the link color on hover
+  for (let i = 0; i < links.length; i++) {
+    links[i].classList.remove('light-mode-link');
+    links[i].classList.add('dark-mode-link');
+  }
+  // changes to the paragraph text color
+  for (let i = 0; i < paragraphs.length; i++) {
+    paragraphs[i].classList.remove('light-mode-text');
+    paragraphs[i].classList.add('dark-mode-text');
+  }
+  // set local storage to dark mode
+  window.localStorage.setItem('mode', 'dark');
 }
 
 function lightMode() {
@@ -56,7 +60,7 @@ function lightMode() {
     paragraphs[i].classList.remove('dark-mode-text');
     paragraphs[i].classList.add('light-mode-text');
   }
-  // set local storage to dark mode
+  // set local storage to light mode
   window.localStorage.setItem('mode', 'light');
 }
 
