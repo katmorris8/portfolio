@@ -85,7 +85,7 @@ section {
 .toggle-dark {
   border: #cccccc 2px solid;
   transition: background-color 500ms ease-out 300ms,
-              border 500ms ease-out 300ms;;
+              border 500ms ease-out 300ms;
 }
 
 .toggle:hover {

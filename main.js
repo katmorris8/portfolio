@@ -34,26 +34,30 @@ function handleToggle() {
 
   // turn light mode on
   } else if (window.localStorage.getItem('mode') === 'dark' || body.id === 'dark-mode') {
-    // changes to the toggle button
-    toggle.classList.remove('toggle-dark');
-    toggle.classList.add('toggle-light');
-    toggleBtn.classList.remove('dark-mode-toggle');
-    toggleBtn.classList.add('light-mode-toggle');
-    // changes to the background color
-    body.id = 'light-mode';
-    // changes to the link color on hover
-    for (let i = 0; i < links.length; i++) {
-      links[i].classList.remove('dark-mode-link');
-      links[i].classList.add('light-mode-link');
-    }
-    // changes to the paragraph text color
-    for (let i = 0; i < paragraphs.length; i++) {
-      paragraphs[i].classList.remove('dark-mode-text');
-      paragraphs[i].classList.add('light-mode-text');
-    }
-    // set local storage to dark mode
-    window.localStorage.setItem('mode', 'light');
+    lightMode();
   }
+}
+
+function lightMode() {
+  // changes to the toggle button
+  toggle.classList.remove('toggle-dark');
+  toggle.classList.add('toggle-light');
+  toggleBtn.classList.remove('dark-mode-toggle');
+  toggleBtn.classList.add('light-mode-toggle');
+  // changes to the background color
+  body.id = 'light-mode';
+  // changes to the link color on hover
+  for (let i = 0; i < links.length; i++) {
+    links[i].classList.remove('dark-mode-link');
+    links[i].classList.add('light-mode-link');
+  }
+  // changes to the paragraph text color
+  for (let i = 0; i < paragraphs.length; i++) {
+    paragraphs[i].classList.remove('dark-mode-text');
+    paragraphs[i].classList.add('light-mode-text');
+  }
+  // set local storage to dark mode
+  window.localStorage.setItem('mode', 'light');
 }
 
 // save mode to local storage
