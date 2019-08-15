@@ -3,17 +3,21 @@ const toggle = document.querySelector('.toggle');
 const toggleBtn = document.querySelector('.toggle-button');
 const links = document.querySelectorAll('.light-mode-link');
 const paragraphs = document.querySelectorAll('.light-mode-text');
+const localStorageMode = localStorage.getItem('mode');
 
 window.onload = checkLocalStorage();
 
 toggle.addEventListener('click', handleToggle);
 
 function checkLocalStorage() {
-
+  if (localStorageMode === 'light') {
+    lightMode();
+  } else if (localStorageMode === 'dark') {
+    darkMode();
+  }
 }
 
 function handleToggle() {
-  console.log(localStorage.getItem('mode'));
   // turn dark mode on
   if (body.id === 'light-mode') {
     darkMode();
@@ -81,7 +85,6 @@ function lightMode() {
   localStorage.setItem('mode', 'light');
 }
 
-// save mode to local storage
 // adjust toggle size for mobile
 // make the headshot, gradient filter and blue shape strict sizes
 // change toggle symbols to fontawesome icons
