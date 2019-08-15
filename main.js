@@ -50,9 +50,9 @@ function darkMode() {
     paragraphs[i].classList.remove('light-mode-text');
     paragraphs[i].classList.add('dark-mode-text');
   }
-  // clear local storage
+
+  // modify the local storage
   localStorage.clear();
-  // set local storage to dark mode
   localStorage.setItem('mode', 'dark');
 }
 
@@ -79,12 +79,9 @@ function lightMode() {
     paragraphs[i].classList.add('light-mode-text');
   }
 
-  // clear local storage
+  // modify the local storage
   localStorage.clear();
-  // set local storage to light mode
   localStorage.setItem('mode', 'light');
 }
 
-// adjust toggle size for mobile
 // make the headshot, gradient filter and blue shape strict sizes
-// change toggle symbols to fontawesome icons
