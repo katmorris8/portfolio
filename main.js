@@ -85,3 +85,12 @@ function lightMode() {
 }
 
 // make the headshot, gradient filter and blue shape strict sizes
+// adjust the size of the blue rectangle in the header
+// adjust the hight of the header section
+// make the project image link to the project page
+// edit the project image with CSS filters
+    // blur
+    // greyscale
+    // blue tranparent overlay
+    // border
+    // ajust the font size and weight on all screens
