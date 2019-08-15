@@ -20,6 +20,7 @@ function handleToggle() {
   }
 }
 
+// changes from light mode to dark mode
 function darkMode() {
   // changes to the toggle button
   toggle.classList.remove('toggle-light');
@@ -42,6 +43,7 @@ function darkMode() {
   window.localStorage.setItem('mode', 'dark');
 }
 
+// changes from dark mode to light mode
 function lightMode() {
   // changes to the toggle button
   toggle.classList.remove('toggle-dark');
