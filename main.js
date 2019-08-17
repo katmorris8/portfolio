@@ -1,7 +1,7 @@
 const body = document.querySelector('body');
 const toggle = document.querySelector('.toggle');
 const toggleBtn = document.querySelector('.toggle-button');
-const links = document.querySelectorAll('.light-mode-link');
+const links = document.querySelectorAll('.link');
 const paragraphs = document.querySelectorAll('.text');
 const localStorageMode = localStorage.getItem('mode');
 
