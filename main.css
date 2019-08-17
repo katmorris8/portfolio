@@ -2,16 +2,6 @@
   box-sizing: border-box;
 }
 
-#light-mode {
-  background-color: #ffffff;
-  transition: background-color 500ms ease-out 300ms;
-}
-
-#dark-mode {
-  background-color: #333333;
-  transition: background-color 500ms ease-out 300ms;
-}
-
 body {
   font-size: 18px;
   margin: 0;
@@ -77,18 +67,6 @@ section {
   position: relative;
 }
 
-.toggle-light {
-  border: #333333 2px solid;
-  transition: background-color 500ms ease-out 300ms,
-              border 500ms ease-out 300ms;
-}
-
-.toggle-dark {
-  border: #cccccc 2px solid;
-  transition: background-color 500ms ease-out 300ms,
-              border 500ms ease-out 300ms;
-}
-
 .toggle:hover {
   cursor: pointer;
 }
@@ -104,16 +82,6 @@ section {
   background-color: #99ccff;
   border-radius: 50%;
   position: absolute;
-}
-
-.light-mode-toggle {
-  left: .1rem;
-  transition: left 500ms ease-out 300ms;
-}
-
-.dark-mode-toggle {
-  left: 2.45rem;
-  transition: left 500ms ease-out 300ms;
 }
 
 .header-section {
@@ -143,26 +111,6 @@ section {
 .nav-bar a:hover {
   color: #ffffff;
   transition: color 500ms ease-in 200ms;
-}
-
-.light-mode-link:hover {
-  color: #333333;
-  transition: color 500ms ease-in 200ms;
-}
-
-.dark-mode-link:hover {
-  color: #ffffff;
-  transition: color 500ms ease-in 200ms;
-}
-
-.light-mode-text {
-  color: #333333;
-  transition: color 500ms ease-out 300ms;
-}
-
-.dark-mode-text {
-  color: #ffffff;
-  transition: color 500ms ease-out 300ms;
 }
 
 .header-bar {
@@ -290,6 +238,61 @@ section {
   justify-content: space-evenly;
   width: 70%;
   margin: 0 auto;
+}
+
+/* light mode and dark mode styles */
+
+#light-mode {
+  background-color: #ffffff;
+  transition: background-color 500ms ease-out 300ms;
+}
+
+#dark-mode {
+  background-color: #333333;
+  transition: background-color 500ms ease-out 300ms;
+}
+
+.toggle-light {
+  border: #333333 2px solid;
+  transition: background-color 500ms ease-out 300ms,
+              border 500ms ease-out 300ms;
+}
+
+.toggle-dark {
+  border: #cccccc 2px solid;
+  transition: background-color 500ms ease-out 300ms,
+              border 500ms ease-out 300ms;
+}
+
+.light-mode-toggle {
+  left: .1rem;
+  transition: left 500ms ease-out 300ms;
+}
+
+.dark-mode-toggle {
+  left: 2.45rem;
+  transition: left 500ms ease-out 300ms;
+}
+
+
+.light-mode-link:hover {
+  color: #333333;
+  transition: color 500ms ease-in 200ms;
+}
+
+.dark-mode-link:hover {
+  color: #ffffff;
+  transition: color 500ms ease-in 200ms;
+}
+
+.light-mode-text {
+  color: #333333;
+  transition: color 500ms ease-out 300ms;
+}
+
+.dark-mode-text {
+  color: #ffffff;
+  transition: color 500ms ease-out 300ms;
 }
 
 @media only screen and (min-width: 1440px) {
