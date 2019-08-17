@@ -10,7 +10,7 @@ window.onload = checkLocalStorage();
 toggle.addEventListener('click', handleToggle);
 
 function checkLocalStorage() {
-  if (!ocalStorageMode) {
+  if (!localStorageMode) {
     lightMode();
   } else if (localStorageMode === 'light') {
     lightMode();
