@@ -274,7 +274,6 @@ section {
   transition: left 500ms ease-out 300ms;
 }
 
-
 .light-mode-link:hover {
   color: #333333;
   transition: color 500ms ease-in 200ms;
