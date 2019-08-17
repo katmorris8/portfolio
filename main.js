@@ -1,8 +1,8 @@
-const body = document.querySelector('#light-mode');
+const body = document.querySelector('body');
 const toggle = document.querySelector('.toggle');
 const toggleBtn = document.querySelector('.toggle-button');
 const links = document.querySelectorAll('.light-mode-link');
-const paragraphs = document.querySelectorAll('.light-mode-text');
+const paragraphs = document.querySelectorAll('.text');
 const localStorageMode = localStorage.getItem('mode');
 
 window.onload = checkLocalStorage();
