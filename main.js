@@ -28,34 +28,6 @@ function handleToggle() {
   }
 }
 
-// changes from light mode to dark mode
-function darkMode() {
-  // changes to the toggle button
-  toggle.classList.remove('toggle-light');
-  toggle.classList.add('toggle-dark');
-  toggleBtn.classList.remove('light-mode-toggle');
-  toggleBtn.classList.add('dark-mode-toggle');
-
-  // changes to the background color
-  body.id = 'dark-mode';
-
-  // changes to the link color on hover
-  for (let i = 0; i < links.length; i++) {
-    links[i].classList.remove('light-mode-link');
-    links[i].classList.add('dark-mode-link');
-  }
-
-  // changes to the paragraph text color
-  for (let i = 0; i < paragraphs.length; i++) {
-    paragraphs[i].classList.remove('light-mode-text');
-    paragraphs[i].classList.add('dark-mode-text');
-  }
-
-  // modify the local storage
-  localStorage.clear();
-  localStorage.setItem('mode', 'dark');
-}
-
 // changes from dark mode to light mode
 function lightMode() {
   // changes to the toggle button
@@ -82,6 +54,34 @@ function lightMode() {
   // modify the local storage
   localStorage.clear();
   localStorage.setItem('mode', 'light');
+}
+
+// changes from light mode to dark mode
+function darkMode() {
+  // changes to the toggle button
+  toggle.classList.remove('toggle-light');
+  toggle.classList.add('toggle-dark');
+  toggleBtn.classList.remove('light-mode-toggle');
+  toggleBtn.classList.add('dark-mode-toggle');
+
+  // changes to the background color
+  body.id = 'dark-mode';
+
+  // changes to the link color on hover
+  for (let i = 0; i < links.length; i++) {
+    links[i].classList.remove('light-mode-link');
+    links[i].classList.add('dark-mode-link');
+  }
+
+  // changes to the paragraph text color
+  for (let i = 0; i < paragraphs.length; i++) {
+    paragraphs[i].classList.remove('light-mode-text');
+    paragraphs[i].classList.add('dark-mode-text');
+  }
+
+  // modify the local storage
+  localStorage.clear();
+  localStorage.setItem('mode', 'dark');
 }
 
 // make the headshot, gradient filter and blue shape strict sizes
