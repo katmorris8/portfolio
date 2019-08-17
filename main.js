@@ -86,9 +86,6 @@ function lightMode() {
   localStorage.setItem('mode', 'light');
 }
 
-// remove the light mode classes from the HTML elements
-// if there's nothing in local storage, default to light mode
-
 // make the headshot, gradient filter and blue shape strict sizes
 // adjust the size of the blue rectangle in the header
 // adjust the hight of the header section
