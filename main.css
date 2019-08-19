@@ -165,6 +165,10 @@ section {
   margin-bottom: 2.75rem;
 }
 
+.about-header {
+  justify-content: space-between;
+}
+
 .line {
   background-color: #99ccff;
   width: 85%;
