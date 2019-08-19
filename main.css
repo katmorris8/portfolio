@@ -92,10 +92,8 @@ section {
 .nav-bar {
   position: absolute;
   left: 55%;
-  /* top: 1.15em; */
   width: 600px;
   height: 600px;
-  /* padding: .83em; */
   background-color: #99ccff;
   z-index: 1;
 }

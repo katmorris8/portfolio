@@ -85,6 +85,7 @@ function darkMode() {
 }
 
 // make the headshot, gradient filter and blue shape strict sizes
+// fix nav spacing
 // adjust the size of the blue rectangle in the header
 // adjust the hight of the header section
 // make the project image link to the project page
