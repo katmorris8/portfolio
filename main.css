@@ -117,7 +117,7 @@ section {
   right: 0;
   position: absolute;
   margin: 0 auto;
-  width: 90%;
+  /* width: 90%; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -126,7 +126,7 @@ section {
 }
 
 .header-message {
-  width: 50%;
+  /* width: 50%; */
 }
 
 .header-message p {
@@ -135,7 +135,7 @@ section {
 }
 
 .header-img {
-  width: 50%;
+  /* width: 50%; */
 }
 
 .header-img img {
@@ -151,7 +151,8 @@ section {
   content: "";
   width: 600px;
   height: 100%;
-  right: 48px;
+  top: 0;
+  /* right: 48px; */
   background: linear-gradient(150deg, transparent 50%,#99ccff 100%);
 }
 
