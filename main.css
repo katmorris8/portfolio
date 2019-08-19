@@ -533,6 +533,10 @@ section {
     margin-bottom: 0;
   }
 
+  .about-content {
+    width: 90%;
+  }
+
   .line {
     width: 60%;
   }
