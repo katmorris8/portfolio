@@ -150,7 +150,7 @@ section {
   position: absolute;
   content: "";
   width: 600px;
-  height: 600px;
+  height: 100%;
   right: 48px;
   background: linear-gradient(150deg, transparent 50%,#99ccff 100%);
 }
@@ -326,8 +326,9 @@ section {
   }
   
   .header-img::after {
-    right: 2.5%;
-    width: 47.5%;
+    width: 500px;
+    top: -3px;
+    right: -39px;
   }
 
   .nav-bar {
