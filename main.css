@@ -143,17 +143,17 @@ section {
 .header-img img {
   position: relative;
   margin: 0 auto;
-  width: 90%;
+  width: 600px;
+  height: 600px;
   filter: contrast(95%) brightness(130%) grayscale(1);
 }
 
 .header-img::after {
   position: absolute;
   content: "";
-  height: 100%;
-  width: 45%;
-  bottom: .15rem;
-  right: 5%;
+  width: 600px;
+  height: 600px;
+  right: 48px;
   background: linear-gradient(150deg, transparent 50%,#99ccff 100%);
 }
 
