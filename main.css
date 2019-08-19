@@ -142,7 +142,7 @@ section {
   position: relative;
   margin: 0 auto;
   width: 600px;
-  height: 600px;
+  height: 100%;
   filter: contrast(95%) brightness(130%) grayscale(1);
 }
 
@@ -321,7 +321,8 @@ section {
   }
   
   .header-img img {
-    width: 95%;
+    width: 500px;
+    height: 100%;
   }
   
   .header-img::after {
