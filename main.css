@@ -109,7 +109,7 @@ section {
 
 .nav-links {
   position: absolute;
-  left: 58%;
+  right: 15em;
   top: 2em;
 }
 
@@ -316,6 +316,10 @@ section {
 }
 
 @media only screen and (min-width: 1440px) {
+  .nav-links {
+    /* left: 58%; */
+  }
+
   .project {
     padding-bottom: 8.5em;
   }
@@ -364,6 +368,10 @@ section {
     height: 450px;
   }
 
+  .nav-links {
+    right: 7em;
+  }
+
   .project {
     display: block;
     width: 100%;
@@ -404,6 +412,11 @@ section {
     width: 350px;
     height: 350px;
     margin-top: 3em;
+  }
+
+  .nav-links {
+    right: 4.5em;
+    top: 4em;
   }
 
   .nav-links a {
