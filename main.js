@@ -85,7 +85,7 @@ function darkMode() {
 }
 
 // make the headshot, gradient filter and blue shape strict sizes
-// fix nav spacing
+// fix nav spacing (maybe calc)
 // .header-message padding
 // adjust the size of the blue rectangle in the header
 // adjust the hight of the header section
