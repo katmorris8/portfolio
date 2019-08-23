@@ -140,10 +140,11 @@ section {
 }
 
 .header-img img {
-  position: relative;
+  /* position: relative; */
   margin: 0 auto;
   width: 600px;
   height: 100%;
+  margin-right: 4em;
   filter: contrast(95%) brightness(130%) grayscale(1);
 }
 
