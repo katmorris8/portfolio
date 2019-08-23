@@ -95,6 +95,7 @@ section {
   position: absolute;
   right: 0;
   padding: 1em;
+  margin: 1em;
   width: 600px;
   height: 600px;
   background-color: #99ccff;
