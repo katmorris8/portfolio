@@ -107,11 +107,13 @@ section {
   z-index: -1;
 }
 
-.nav-link-container {
-  display: flex;
+.nav-links {
+  position: absolute;
+  left: 58%;
+  top: 2em;
 }
 
-.nav-bar a {
+.nav-links a {
   font-family: 'Open Sans Condensed', sans-serif;
   color: #333333;
   font-size: 1.15em;
@@ -119,7 +121,7 @@ section {
   letter-spacing: 0.5px;
 }
 
-.nav-bar a:hover {
+.nav-links a:hover {
   color: #ffffff;
   transition: color 500ms ease-in 200ms;
 }
@@ -404,7 +406,7 @@ section {
     margin-top: 3em;
   }
 
-  .nav-bar a {
+  .nav-links a {
     padding: 1.75rem .834rem;
   }
 
@@ -536,7 +538,7 @@ section {
     flex-direction: column;
   }
 
-  .nav-bar a {
+  .nav-links a {
     padding: .25rem;
   }
 
