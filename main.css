@@ -328,6 +328,10 @@ section {
     height: 36em;
   }
 
+  .header-bar {
+    padding-top: 4.5em;
+  }
+
   .header-message {
     padding: 0 0 0 1.25em;
   }
@@ -340,6 +344,7 @@ section {
   .header-img img {
     width: 450px;
     height: 100%;
+    margin-right: 4.5em;
   }
   
   .header-img::after {
