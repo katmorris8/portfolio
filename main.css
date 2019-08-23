@@ -107,6 +107,10 @@ section {
   z-index: -1;
 }
 
+.nav-link-container {
+  display: flex;
+}
+
 .nav-bar a {
   font-family: 'Open Sans Condensed', sans-serif;
   color: #333333;
