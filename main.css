@@ -54,6 +54,8 @@ section {
 
 .toggle-container {
   padding: 1em;
+  position: absolute;
+  z-index: 5;
 }
 
 .toggle {
