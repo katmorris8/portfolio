@@ -119,6 +119,7 @@ section {
   right: 0;
   position: absolute; */
   margin: 0 auto;
+  padding-top: 4em;
   width: 100%;
   display: flex;
   justify-content: space-between;
