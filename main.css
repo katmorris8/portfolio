@@ -91,8 +91,8 @@ section {
 
 .nav-bar {
   position: absolute;
-  left: 55%;
-  width: 600px;
+  left: 50%;
+  /* width: 600px; */
   height: 600px;
   background-color: #99ccff;
   z-index: 1;
@@ -117,7 +117,7 @@ section {
   right: 0;
   position: absolute;
   margin: 0 auto;
-  /* width: 90%; */
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
