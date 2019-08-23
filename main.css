@@ -52,6 +52,11 @@ section {
   padding: 3.5em 0;
 }
 
+.width {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
 .toggle-container {
   padding: 1em;
   position: absolute;
@@ -149,7 +154,7 @@ section {
   margin: 0 auto;
   width: 600px;
   height: 100%;
-  margin-right: 4em;
+  margin-right: 5em;
   filter: contrast(95%) brightness(130%) grayscale(1);
 }
 
