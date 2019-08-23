@@ -112,17 +112,17 @@ section {
 }
 
 .header-bar {
-  top: 5em;
+  /* top: 5em;
   left: 0;
   right: 0;
-  position: absolute;
+  position: absolute; */
   margin: 0 auto;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row-reverse;
-  z-index: 5;
+  /* z-index: 5; */
 }
 
 .header-message {
