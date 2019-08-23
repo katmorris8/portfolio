@@ -93,8 +93,9 @@ section {
 
 .nav-bar {
   position: absolute;
-  left: 50%;
-  /* width: 600px; */
+  right: 0;
+  padding: 1em;
+  width: 600px;
   height: 600px;
   background-color: #99ccff;
   z-index: -1;
@@ -119,7 +120,7 @@ section {
   right: 0;
   position: absolute; */
   margin: 0 auto;
-  padding-top: 4em;
+  padding-top: 5em;
   width: 100%;
   display: flex;
   justify-content: space-between;
