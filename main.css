@@ -397,6 +397,7 @@ section {
   .nav-bar {
     width: 350px;
     height: 350px;
+    margin-top: 3.5em;
   }
 
   .nav-bar a {
@@ -408,7 +409,7 @@ section {
   }
 
   .header-bar {
-    padding-top: 3.5em;
+    padding-top: 6em;
   }
 
   .header-message {
