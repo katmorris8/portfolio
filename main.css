@@ -164,15 +164,14 @@ section {
   filter: contrast(95%) brightness(130%) grayscale(1);
 }
 
-/* .header-img::after {
+.header-img::after {
   position: absolute;
   content: "";
   width: 600px;
-  height: 100%;
+  height: 690px;
   top: 0;
-  right: 48px;
   background: linear-gradient(150deg, transparent 50%,#99ccff 100%);
-} */
+}
 
 .portfolio-header, .about-header, .contact-header {
   display: flex;
