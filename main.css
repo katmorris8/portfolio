@@ -521,6 +521,7 @@ section {
   .nav-bar {
     width: 340px;
     height: 19.5em;
+    top: 0;
   }
   
   .header-bar {
@@ -534,6 +535,7 @@ section {
 
   .header-img img {
     width: 375px;
+    top: 0;
   }
 
   .header-img::after {
