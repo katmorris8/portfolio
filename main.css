@@ -616,20 +616,28 @@ section {
   }
 }
 
-@media only screen and (max-width: 452px) {
-  .header-img::after {
-    height: 55.15%;
+@media only screen and (max-width: 425px) {
+  .header-img img {
+    width: 330px;
   }
-}
 
-@media only screen and (max-width: 375px) {
   .header-img::after {
-    height: 53.75%;
+    width: 330px;
+    height: 330px;
+  }
+
+  .nav-bar {
+    width: 300px;
+    height: 350px;
+  }
+
+  .nav-links a {
+    padding: .75rem;
   }
 }
 
 @media only screen and (max-width: 320px) {
   .header-img::after {
-    height: 46.5%;
+    /* height: 46.5%; */
   }
 }
