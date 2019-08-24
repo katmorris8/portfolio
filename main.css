@@ -542,6 +542,7 @@ section {
     width: 375px;
     top: 0;
     left: 2em;
+    margin: 0;
   }
 
   .header-img::after {
