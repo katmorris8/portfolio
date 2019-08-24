@@ -517,16 +517,23 @@ section {
   h4 {
     font-size: 1.75rem;
   }
-  
+
   .nav-bar {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
     width: 340px;
     height: 19.5em;
     top: 0;
   }
-
+  
   .nav-links {
     top: 2.5em;
     right: 3.5em;
+  }
+  
+  .nav-links a {
+    padding: .25rem;
   }
   
   .header-bar {
@@ -556,16 +563,6 @@ section {
   .header-message {
     padding-top: 1rem;
     width: 90%;
-  }
-
-  .nav-bar {
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-  }
-
-  .nav-links a {
-    padding: .25rem;
   }
 
   .portfolio {
