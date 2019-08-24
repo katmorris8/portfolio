@@ -547,10 +547,10 @@ section {
   }
 
   .header-img::after {
-    height: 59%;
-    width: 90%;
-    top: 0;
-    left: 0;
+    width: 375px;
+    height: 430px;
+    top: 3em;
+    left: 2em;
   }
 
   .header-message {
