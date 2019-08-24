@@ -437,7 +437,8 @@ section {
 
   .header-img::after {
     width: 350px;
-    height: 459px;
+    height: 350px;
+    top: 6em;
   }
 
   .portfolio {
