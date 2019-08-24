@@ -550,8 +550,8 @@ section {
 
   .header-img::after {
     width: 375px;
-    height: 430px;
-    top: 3em;
+    height: 375px;
+    top: 6em;
     left: 2em;
   }
 
