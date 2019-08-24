@@ -353,9 +353,8 @@ section {
   }
   
   .header-img::after {
-    width: 500px;
-    top: -3px;
-    right: -39px;
+    width: 450px;
+    height: 531px;
   }
 
   .nav-bar {
