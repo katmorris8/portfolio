@@ -315,10 +315,6 @@ section {
 }
 
 @media only screen and (min-width: 1440px) {
-  .nav-links {
-    /* left: 58%; */
-  }
-
   .project {
     padding-bottom: 8.5em;
   }
