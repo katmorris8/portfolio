@@ -523,6 +523,11 @@ section {
     height: 19.5em;
     top: 0;
   }
+
+  .nav-links {
+    top: 2.5em;
+    right: 5.5em;
+  }
   
   .header-bar {
     display: block;
