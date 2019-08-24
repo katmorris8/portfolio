@@ -533,6 +533,10 @@ section {
     width: 100%;
   }
 
+  .header-img img {
+    width: 300px;
+  }
+
   .header-img::after {
     height: 59%;
     width: 90%;
