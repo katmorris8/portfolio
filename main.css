@@ -651,6 +651,11 @@ section {
     height: 330px;
   }
 
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+  }
+
   .nav-links a {
     padding: .5rem;
   }
