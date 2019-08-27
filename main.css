@@ -127,9 +127,10 @@ section {
 }
 
 .menu-btn {
+  display: none;
   font-family: 'Open Sans Condensed', sans-serif;
   color: #333333;
-  font-size: 1.15em;
+  font-size: 1.25em;
   border: none;
   background-color: transparent;
   outline: none;
@@ -524,9 +525,6 @@ section {
   }
 
   .nav-bar {
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
     width: 340px;
     height: 390px;
     top: 1em;
@@ -535,10 +533,18 @@ section {
   .nav-links {
     top: 3.25em;
     right: 2em;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    opacity: 0;
   }
   
   .nav-links a {
     padding: 1.25rem;
+  }
+
+  .menu-btn {
+    display: block;
   }
   
   .header-bar {
