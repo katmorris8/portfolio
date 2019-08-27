@@ -126,6 +126,16 @@ section {
   transition: color 500ms ease-in 200ms;
 }
 
+.menu-btn {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #333333;
+  font-size: 1.15em;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
 .header-bar {
   /* top: 5em;
   left: 0;
