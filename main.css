@@ -564,7 +564,7 @@ section {
     position: relative;
     width: 375px;
     top: 1em;
-    left: 2em;
+    left: 1.5em;
     margin: 0;
   }
 
@@ -572,7 +572,7 @@ section {
     width: 375px;
     height: 375px;
     top: 6em;
-    left: 2em;
+    left: 1.5em;
   }
 
   .header-message {
@@ -690,7 +690,18 @@ section {
 }
 
 @media only screen and (max-width: 320px) {
+  .header-img img {
+    width: 260px;
+  }
+
   .header-img::after {
-    /* height: 46.5%; */
+    width: 260px;
+    height: 260px;
+  }
+
+  .nav-bar {
+    width: 210px;
+    height: 330px;
+    margin: .5em;
   }
 }
