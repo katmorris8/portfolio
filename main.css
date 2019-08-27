@@ -692,16 +692,23 @@ section {
 @media only screen and (max-width: 320px) {
   .header-img img {
     width: 260px;
+    top: 0;
   }
 
   .header-img::after {
     width: 260px;
     height: 260px;
+    top: 5em;
   }
 
   .nav-bar {
     width: 210px;
-    height: 330px;
+    height: 290px;
     margin: .5em;
+  }
+
+  .menu-btn {
+    top: 1.75rem;
+    right: 1.5rem;
   }
 }
