@@ -4,10 +4,12 @@ const toggleBtn = document.querySelector('.toggle-button');
 const links = document.querySelectorAll('.link');
 const paragraphs = document.querySelectorAll('.text');
 const localStorageMode = localStorage.getItem('mode');
+const menuButton = document.querySelector('.menu-btn');
 
 window.onload = checkLocalStorage();
 
 toggle.addEventListener('click', handleToggle);
+menuButton.addEventListener('click', handleMenuClick);
 
 function checkLocalStorage() {
   if (!localStorageMode || localStorageMode === 'light') {
@@ -84,6 +86,11 @@ function darkMode() {
   localStorage.setItem('mode', 'dark');
 }
 
+function handleMenuClick() {
+  menuButton.style.color = '#ffffff';
+}
+
+// mobile menu button
 // make the headshot, gradient filter and blue shape strict sizes
 // fix nav spacing (maybe calc)
 // .header-message padding
