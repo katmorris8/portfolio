@@ -557,6 +557,10 @@ section {
     top: 2.5rem;
     right: 3.5rem;
   }
+
+  .open-menu-header {
+    padding-top: 14rem;
+  }
   
   .header-bar {
     display: block;
@@ -580,6 +584,10 @@ section {
     height: 375px;
     top: 6em;
     left: 1.5em;
+  }
+
+  .open-menu-img::after {
+    top: 13.5em;
   }
 
   .header-message {
