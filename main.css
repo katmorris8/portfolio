@@ -550,8 +550,11 @@ section {
   }
   
   .nav-links a {
-    /* display: none; */
     padding: .75rem;
+  }
+
+  .closed-menu-nav-links {
+    display: none;
   }
 
   .menu-btn {
