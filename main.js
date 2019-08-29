@@ -87,7 +87,13 @@ function darkMode() {
 }
 
 function handleMenuClick() {
-  menuButton.style.color = '#ffffff';
+  if (menuButton.classList.contains('dark')) {
+    menuButton.classList.remove('dark');
+    menuButton.classList.add('light');
+  } else if (menuButton.classList.contains('light')) {
+    menuButton.classList.remove('light');
+    menuButton.classList.add('dark');
+  }
 }
 
 // mobile menu button
