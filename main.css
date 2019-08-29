@@ -539,7 +539,7 @@ section {
   
   .menu-open {
     top: 3.25em;
-    right: 3.75em;
+    right: 4.25em;
     display: flex;
     align-items: flex-end;
     flex-direction: column;
@@ -547,15 +547,20 @@ section {
   
   .nav-links a {
     /* display: none; */
-    padding: 1.25rem;
+    padding: .75rem;
   }
 
   .menu-btn {
     display: none;
-    /* display: block; */
+    display: block;
     position: absolute;
     top: 2.5rem;
     right: 3.5rem;
+  }
+
+  .open-menu-btn {
+    top: 11rem;
+    color: #ffffff;
   }
 
   .open-menu-header {
