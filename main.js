@@ -4,12 +4,10 @@ const toggleBtn = document.querySelector('.toggle-button');
 const links = document.querySelectorAll('.link');
 const paragraphs = document.querySelectorAll('.text');
 const localStorageMode = localStorage.getItem('mode');
-const menuButton = document.querySelector('.menu-btn');
 
 window.onload = checkLocalStorage();
 
 toggle.addEventListener('click', handleToggle);
-menuButton.addEventListener('click', handleMenuClick);
 
 function checkLocalStorage() {
   if (!localStorageMode || localStorageMode === 'light') {
@@ -86,13 +84,22 @@ function darkMode() {
   localStorage.setItem('mode', 'dark');
 }
 
+const menuButton = document.querySelector('.menu-btn');
+menuButton.addEventListener('click', handleMenuClick);
+
 function handleMenuClick() {
   if (menuButton.classList.contains('dark')) {
+    // changes the menu text color from dark to light
     menuButton.classList.remove('dark');
     menuButton.classList.add('light');
+    // expands the menu
+    openMenu();
   } else if (menuButton.classList.contains('light')) {
+    // changes the menu text color from light to dark
     menuButton.classList.remove('light');
     menuButton.classList.add('dark');
+    // collapses the menu
+    closeMenu()
   }
 }
 
