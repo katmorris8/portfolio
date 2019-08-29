@@ -129,13 +129,20 @@ section {
 .menu-btn {
   display: none;
   font-family: 'Open Sans Condensed', sans-serif;
-  color: #333333;
   font-size: 1.25em;
   border: none;
   background-color: transparent;
   outline: none;
   cursor: pointer;
   padding: 1rem 2rem;
+}
+
+.dark {
+  color: #333333;
+}
+
+.light {
+  color: #ffffff;
 }
 
 .header-bar {
