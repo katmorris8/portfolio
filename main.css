@@ -537,21 +537,22 @@ section {
     top: 1em;
   }
   
-  .nav-links {
+  .menu-open {
     top: 3.25em;
-    right: 2em;
+    right: 3.75em;
     display: flex;
     align-items: flex-end;
     flex-direction: column;
   }
   
   .nav-links a {
-    display: none;
+    /* display: none; */
     padding: 1.25rem;
   }
 
   .menu-btn {
-    display: block;
+    display: none;
+    /* display: block; */
     position: absolute;
     top: 2.5rem;
     right: 3.5rem;
