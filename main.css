@@ -536,6 +536,10 @@ section {
     height: 390px;
     top: 1em;
   }
+
+  .open-menu-nav-bar {
+    height: 500px;
+  }
   
   .menu-open {
     top: 3.25em;
