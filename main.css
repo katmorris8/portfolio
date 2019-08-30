@@ -689,6 +689,14 @@ section {
   .menu-open {
     right: 4.25rem;
   }
+
+  .open-menu-btn {
+    top: 10rem;
+  }
+
+  .open-menu-header {
+    padding-top: 13rem;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -712,6 +720,10 @@ section {
 
   .nav-links a {
     padding: .5rem;
+  }
+
+  .menu-open {
+    right: 3.5rem;
   }
 }
 
