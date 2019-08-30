@@ -106,6 +106,7 @@ function handleMenuClick() {
 const navLinks = document.querySelector('.nav-links');
 const navBar = document.querySelector('.nav-bar');
 const headerBar = document.querySelector('.header-bar');
+const headerImg = document.querySelector('.header-img');
 
 function openMenu() {
   // shows the nav links
@@ -115,6 +116,8 @@ function openMenu() {
   navBar.classList.add('open-menu-nav-bar');
   // adjusts the header bar
   headerBar.classList.add('open-menu-header');
+  // adjusts the header img
+  headerImg.classList.add('open-menu-img');
 }
 
 
@@ -123,7 +126,7 @@ function openMenu() {
 // nav-links --> menu-open --- x
 // menu-btn --> dark open-menu-btn
 // header-bar --> open-menu-header --- x
-// header-img --> open-menu-img
+// header-img --> open-menu-img --- x
 
 // nav-links --> closed-menu-nav-links --- x
 
