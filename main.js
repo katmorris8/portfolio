@@ -136,16 +136,6 @@ function closeMenu() {
   menuButton.classList.add('dark');
 }
 
-
-// open menu classes:
-// nav-bar --> open-menu-nav-bar --- x
-// nav-links --> menu-open --- x
-// menu-btn --> dark open-menu-btn
-// header-bar --> open-menu-header --- x
-// header-img --> open-menu-img --- x
-
-// nav-links --> closed-menu-nav-links --- x
-
 // mobile menu button transition
 // make the headshot, gradient filter and blue shape strict sizes
 // fix nav spacing (maybe calc)
