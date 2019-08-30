@@ -143,7 +143,6 @@ for (let i = 0; i < navLinksAll.length; i++) {
 }
 
 // mobile menu button transition
-// make the headshot, gradient filter and blue shape strict sizes
 // fix nav spacing (maybe calc)
 // .header-message padding
 // adjust the size of the blue rectangle in the header
