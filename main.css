@@ -685,6 +685,10 @@ section {
   .nav-links a {
     padding: .75rem;
   }
+
+  .menu-open {
+    right: 4.25rem;
+  }
 }
 
 @media only screen and (max-width: 375px) {
