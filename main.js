@@ -89,9 +89,6 @@ menuButton.addEventListener('click', handleMenuClick);
 
 function handleMenuClick() {
   if (menuButton.classList.contains('dark')) {
-    // changes the menu text color from dark to light
-    menuButton.classList.remove('dark');
-    menuButton.classList.add('light');
     // expands the menu
     openMenu();
   } else if (menuButton.classList.contains('light')) {
@@ -118,6 +115,11 @@ function openMenu() {
   headerBar.classList.add('open-menu-header');
   // adjusts the header img
   headerImg.classList.add('open-menu-img');
+  // adjusts the menu button
+  // changes the menu text color from dark to light
+  menuButton.classList.remove('dark');
+  menuButton.classList.add('light');
+  menuButton.classList.add('open-menu-btn');
 }
 
 
@@ -130,7 +132,7 @@ function openMenu() {
 
 // nav-links --> closed-menu-nav-links --- x
 
-// mobile menu button
+// mobile menu button transition
 // make the headshot, gradient filter and blue shape strict sizes
 // fix nav spacing (maybe calc)
 // .header-message padding
