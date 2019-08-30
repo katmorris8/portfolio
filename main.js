@@ -143,7 +143,6 @@ for (let i = 0; i < navLinksAll.length; i++) {
 }
 
 // mobile menu button transition
-// close menu when a nav link is clicked
 // make the headshot, gradient filter and blue shape strict sizes
 // fix nav spacing (maybe calc)
 // .header-message padding
