@@ -622,6 +622,10 @@ section {
     padding-top: 3.5rem;
   }
 
+  .project-title {
+    padding: .5rem;
+  }
+
   .project-description {
     width: 90%;
     margin: 0 auto;
