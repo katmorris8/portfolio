@@ -96,7 +96,7 @@ function handleMenuClick() {
     menuButton.classList.remove('light');
     menuButton.classList.add('dark');
     // collapses the menu
-    // closeMenu()
+    closeMenu()
   }
 }
 
@@ -120,6 +120,20 @@ function openMenu() {
   menuButton.classList.remove('dark');
   menuButton.classList.add('light');
   menuButton.classList.add('open-menu-btn');
+}
+
+function closeMenu() {
+  // hides the nav links
+  navLinks.classList.remove('menu-open');
+  navLinks.classList.add('closed-menu-nav-links');
+  // adjusts the nav bar
+  navBar.classList.remove('open-menu-nav-bar');
+  // adjusts the header bar
+  headerBar.classList.remove('open-menu-header');
+  // adjusts the header img
+  headerImg.classList.remove('open-menu-img');
+  // adjusts the menu button
+  menuButton.classList.remove('open-menu-btn');
 }
 
 
