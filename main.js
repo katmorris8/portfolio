@@ -143,9 +143,6 @@ for (let i = 0; i < navLinksAll.length; i++) {
 }
 
 // mobile menu button transition
-// fix nav spacing (maybe calc)
-// .header-message padding
-// adjust the size of the blue rectangle in the header
 // adjust the hight of the header section
 // make the project image link to the project page
 // edit the project image with CSS filters
