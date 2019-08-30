@@ -603,7 +603,7 @@ section {
   }
 
   .header-message {
-    padding-top: 3rem;
+    padding: 3rem 2rem;
     width: 100%;
   }
 
