@@ -136,7 +136,14 @@ function closeMenu() {
   menuButton.classList.add('dark');
 }
 
+const navLinksAll = document.querySelectorAll('.nav-link');
+
+for (let i = 0; i < navLinksAll.length; i++) {
+  navLinksAll[i].addEventListener('click', closeMenu);
+}
+
 // mobile menu button transition
+// close menu when a nav link is clicked
 // make the headshot, gradient filter and blue shape strict sizes
 // fix nav spacing (maybe calc)
 // .header-message padding
