@@ -722,6 +722,10 @@ section {
     padding: .5rem;
   }
 
+  .open-menu-nav-bar {
+    height: 450px;
+  }
+
   .menu-open {
     right: 3.5rem;
   }
