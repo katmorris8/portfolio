@@ -103,23 +103,27 @@ function handleMenuClick() {
   }
 }
 
-const navBar = document.querySelector('.nav-bar');
 const navLinks = document.querySelector('.nav-links');
+const headerBar = document.querySelector('.header-bar');
+const navBar = document.querySelector('.nav-bar');
 
 function openMenu() {
+  // shoes the nav links
   navLinks.classList.remove('closed-menu-nav-links');
-  navLinks.classList.add('menu-open ');
+  navLinks.classList.add('menu-open');
+  // adjusts the header bar
+  navBar.classList.add('open-menu-nav-bar');
 }
 
 
 // open menu classes:
-// nav-bar --> open-menu-nav-bar
-// nav-links --> menu-open ---
+// nav-bar --> open-menu-nav-bar --- x
+// nav-links --> menu-open --- x
 // menu-btn --> dark open-menu-btn
 // header-bar --> open-menu-header
 // header-img --> open-menu-img
 
-// nav-links --> closed-menu-nav-links ---
+// nav-links --> closed-menu-nav-links --- x
 
 // mobile menu button
 // make the headshot, gradient filter and blue shape strict sizes
