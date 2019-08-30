@@ -99,9 +99,27 @@ function handleMenuClick() {
     menuButton.classList.remove('light');
     menuButton.classList.add('dark');
     // collapses the menu
-    closeMenu()
+    // closeMenu()
   }
 }
+
+const navBar = document.querySelector('.nav-bar');
+const navLinks = document.querySelector('.nav-links');
+
+function openMenu() {
+  navLinks.classList.remove('closed-menu-nav-links');
+  navLinks.classList.add('menu-open ');
+}
+
+
+// open menu classes:
+// nav-bar --> open-menu-nav-bar
+// nav-links --> menu-open ---
+// menu-btn --> dark open-menu-btn
+// header-bar --> open-menu-header
+// header-img --> open-menu-img
+
+// nav-links --> closed-menu-nav-links ---
 
 // mobile menu button
 // make the headshot, gradient filter and blue shape strict sizes
