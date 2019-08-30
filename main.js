@@ -92,9 +92,6 @@ function handleMenuClick() {
     // expands the menu
     openMenu();
   } else if (menuButton.classList.contains('light')) {
-    // changes the menu text color from light to dark
-    menuButton.classList.remove('light');
-    menuButton.classList.add('dark');
     // collapses the menu
     closeMenu()
   }
@@ -116,10 +113,10 @@ function openMenu() {
   // adjusts the header img
   headerImg.classList.add('open-menu-img');
   // adjusts the menu button
+  menuButton.classList.add('open-menu-btn');
   // changes the menu text color from dark to light
   menuButton.classList.remove('dark');
   menuButton.classList.add('light');
-  menuButton.classList.add('open-menu-btn');
 }
 
 function closeMenu() {
@@ -134,6 +131,9 @@ function closeMenu() {
   headerImg.classList.remove('open-menu-img');
   // adjusts the menu button
   menuButton.classList.remove('open-menu-btn');
+  // changes the menu text color from light to dark
+  menuButton.classList.remove('light');
+  menuButton.classList.add('dark');
 }
 
 
