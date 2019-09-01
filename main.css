@@ -535,6 +535,7 @@ section {
     width: 340px;
     height: 390px;
     top: 1em;
+    transition: height 500ms ease-in 200ms;
   }
 
   .open-menu-nav-bar {
@@ -544,6 +545,7 @@ section {
 
   .nav-links {
     opacity: 0;
+    transition: opacity 500ms ease-in 200ms;
   }
   
   .menu-open {
@@ -556,7 +558,7 @@ section {
     transition: opacity 500ms ease-in 800ms;
   }
   
-  .nav-links a {
+  .nav-link {
     padding: .75rem;
   }
 
@@ -566,6 +568,7 @@ section {
     position: absolute;
     top: 2.5rem;
     right: 3.5rem;
+    transition: top 500ms ease-in 200ms;
   }
 
   .open-menu-btn {
@@ -582,6 +585,7 @@ section {
   .header-bar {
     display: block;
     top: 8.35em;
+    transition: top 500ms ease-in 200ms;
   }
 
   .header-img {
@@ -601,6 +605,7 @@ section {
     height: 375px;
     top: 6em;
     left: 1.5em;
+    transition: top 500ms ease-in 200ms;
   }
 
   .open-menu-img::after {
@@ -706,6 +711,7 @@ section {
 
   .open-menu-header {
     padding-top: 13rem;
+    transition: padding-top 500ms ease-in 200ms;
   }
 }
 
