@@ -541,6 +541,14 @@ section {
     height: 500px;
     transition: height 500ms ease-in 200ms;
   }
+
+  .closed-menu-nav-links {
+    /* display: none; */
+  }
+
+  .nav-links {
+    opacity: 0;
+  }
   
   .menu-open {
     top: 3.25em;
@@ -548,14 +556,12 @@ section {
     display: flex;
     align-items: flex-end;
     flex-direction: column;
+    opacity: 1;
+    transition: opacity 500ms ease-in 800ms;
   }
   
   .nav-links a {
     padding: .75rem;
-  }
-
-  .closed-menu-nav-links {
-    display: none;
   }
 
   .menu-btn {
