@@ -539,6 +539,7 @@ section {
 
   .open-menu-nav-bar {
     height: 500px;
+    transition: height 500ms ease-in 200ms;
   }
   
   .menu-open {
@@ -568,10 +569,12 @@ section {
   .open-menu-btn {
     top: 11rem;
     color: #ffffff;
+    transition: top 500ms ease-in 200ms, color 500ms ease-in 200ms;
   }
 
   .open-menu-header {
     padding-top: 14rem;
+    transition: padding-top 500ms ease-in 200ms;
   }
   
   .header-bar {
@@ -600,6 +603,7 @@ section {
 
   .open-menu-img::after {
     top: 13.5em;
+    transition: top 500ms ease-in 200ms;
   }
 
   .header-message {
