@@ -104,7 +104,6 @@ const headerImg = document.querySelector('.header-img');
 
 function openMenu() {
   // shows the nav links
-  navLinks.classList.remove('closed-menu-nav-links');
   navLinks.classList.add('menu-open');
   // adjusts the nav bar
   navBar.classList.add('open-menu-nav-bar');
@@ -122,7 +121,6 @@ function openMenu() {
 function closeMenu() {
   // hides the nav links
   navLinks.classList.remove('menu-open');
-  navLinks.classList.add('closed-menu-nav-links');
   // adjusts the nav bar
   navBar.classList.remove('open-menu-nav-bar');
   // adjusts the header bar
