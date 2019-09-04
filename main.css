@@ -535,7 +535,7 @@ section {
     width: 340px;
     height: 390px;
     top: 1em;
-    transition: height 500ms ease-in 200ms;
+    transition: height 500ms ease-in 800ms;
   }
 
   .open-menu-nav-bar {
@@ -568,7 +568,7 @@ section {
     position: absolute;
     top: 2.5rem;
     right: 3.5rem;
-    transition: top 500ms ease-in 200ms;
+    transition: top 500ms ease-in 800ms;
   }
 
   .open-menu-btn {
@@ -585,7 +585,7 @@ section {
   .header-bar {
     display: block;
     top: 8.35em;
-    transition: top 500ms ease-in 200ms;
+    transition: top 500ms ease-in 800ms;
   }
 
   .header-img {
@@ -598,7 +598,7 @@ section {
     top: 1em;
     left: 1.5em;
     margin: 0;
-    transition: top 500ms ease-in 200ms;
+    transition: top 500ms ease-in 800ms;
   }
 
   .header-img::after {
@@ -606,7 +606,7 @@ section {
     height: 375px;
     top: 6em;
     left: 1.5em;
-    transition: top 500ms ease-in 200ms;
+    transition: top 500ms ease-in 800ms;
   }
 
   .open-menu-img::after {
