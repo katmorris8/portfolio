@@ -647,7 +647,7 @@ section {
 
   .project-links {
     justify-content: space-evenly;
-    padding: 0;
+    padding: 1rem 0;
   }
 
   .project-links a {
